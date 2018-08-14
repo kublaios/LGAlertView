@@ -3335,7 +3335,8 @@ LGAlertViewType;
 }
 
 - (CGFloat)innerMarginHeight {
-    return self.style == LGAlertViewStyleAlert ? 16.0 : 12.0;
+    // return self.style == LGAlertViewStyleAlert ? 16.0 : 12.0;
+    return 0;
 }
 
 @end
